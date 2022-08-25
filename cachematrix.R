@@ -1,7 +1,8 @@
-## Put comments here that give an overall description of what your
-## functions do
 
-
+# Large matrices may take too long to compute the inverse. If the content is the same
+# it is better to cache the result so we don't have to compute it multiple times.
+# In this assingment we manipulate the scooping rules and take advantage of them.
+# The two functions bellow will help us with what we mentioned first.
 
 #  makeCacheMatrix function creates a matrix 
 #  which contains a list of functions:
